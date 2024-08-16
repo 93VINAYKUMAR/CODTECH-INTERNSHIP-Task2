@@ -1,0 +1,94 @@
+.detail {
+  display: flex;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
+
+body {
+  display: flex;
+
+  justify-content: center;
+  margin: 0;
+  font-family: 'Dosis', sans-serif;
+  font-family: 'Comforter Brush', cursive;
+  background-image: url("http://source.unsplash.com/collection/3178572,357786/1600x900");
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background: url(vinay\ logo.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  background: #31548ed0;
+  color: rgb(179, 66, 21);
+  padding: 2em;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 25px;
+  font-size: 22px;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+}
+
+.search button {
+  border-radius: 40%;
+  border-color: antiquewhite;
+  border: 0.5;
+  height: 3em;
+  width: 3em;
+  margin: 0.5em;
+  background: #0f0d0d2b;
+  color: rgb(29, 25, 25);
+}
+
+.search button:hover {
+  background: #6c6c6c6b;
+  color: rgb(51, 41, 41);
+  cursor: pointer;
+}
+
+
+.sbar {
+  background: #dad5d52b;
+  padding: 1em;
+  border-radius: 25px;
+  width: 80%;
+  height: 9px;
+  color: rgb(50, 47, 47);
+  outline: none;
+  text-transform: uppercase;
+}
+
+.detail {
+  display: flex;
+  margin: 10px;
+
+}
+
+.temp {
+  font-size: 20px;
+  padding: 10px;
+}
+
+.svg-icon {
+  width: 1.8em;
+  height: 1em;
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+  fill: white;
+}
+
+.svg-icon circle {
+  stroke: #4691f6;
+  stroke-width: 1;
+}
